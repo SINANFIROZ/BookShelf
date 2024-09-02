@@ -5,5 +5,6 @@ If you're cloning this project please make sure that the alignment of the webpag
 Also make sure that the href tags are properly routed.
 
 Please note that the image resources used in the project are not put into a single folder.
+The .jpg files are the images used in the project.
 
 YOU ARE FREE TO MAKE CHANGES OF YOUR OWN..
