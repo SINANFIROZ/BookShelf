@@ -1,0 +1,190 @@
+<html>
+<head>
+    <title>BookShelf.com</title>
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Custom Three.js Effects -->
+    <script src="js/three-effects.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/three-effects.css">
+    <style>
+        .top{
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+        .background{
+            background-image: url(images/general/books.jpg);
+        }
+        .book-row {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 60px;
+            margin-bottom: 10px;
+        }
+        .book-item {
+            width: 150px;
+            margin-right: 80px;
+            text-align: center;
+        }
+        .price {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+        .original-price {
+            text-decoration: line-through;
+        }
+        .category-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 60px;
+            margin-bottom: 10px;
+        }
+    </style>
+<body STYLE="background-color:rgb(184, 24, 24)">
+    <!-- Three.js container will be created by JavaScript -->
+    <div id="three-container"></div>
+    
+    <!-- Content wrapper for better contrast over 3D elements -->
+    <div class="content-wrapper">
+        <div class="top">
+            <p style="color:rgb(0, 0, 0)" align="left">&ensp;&ensp;<FONT SIZE="50"><u><b>BookShelf.com</b></u></FONT>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text" placeholder="Search a Book/Genre..." style="width: 300px; font-size: 20px;"><button style="background-color: orange; font-size: 20px;" type="submit">Search</button>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>&#9743;+91 9995673609</b>&ensp;&ensp;&ensp;<b>&#9993;bookshelfbusiness@gmail.com</b>
+        </div>
+        <h1>&ensp;</h1>
+        <dl align="center">
+            <div class="background">
+                <img src="images/general/image1.webp" align="center">
+            </div>
+        </dl>
+    </div>
+    <h1>&ensp;</h1>
+    <hr>
+    
+    <!-- Fiction Section -->
+    <div class="category-header">
+        <h2>Fiction</h2>
+        <h2><a href="fiction.html" style="color: black;">See More...</a></h2>
+    </div>
+    <div class="book-row">
+        <div class="book-item">
+            <img src="images/fiction/fiction1.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs499</span> Rs249</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/fiction/fiction2.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs399</span> Rs149</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/fiction/fiction3.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs699</span> Rs349</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/fiction/fiction4.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs799</span> Rs549</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+    </div>
+    
+    <h1>&ensp;</h1>
+    
+    <!-- Comics Section -->
+    <div class="category-header">
+        <h2>Comics</h2>
+        <h2><a href="comics.html" style="color: black;">See More...</a></h2>
+    </div>
+    <div class="book-row">
+        <div class="book-item">
+            <img src="images/comics/cmc1.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs499</span> Rs249</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/comics/cmc2.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs399</span> Rs149</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/comics/cmc3.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs699</span> Rs349</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/comics/cmc4.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs799</span> Rs549</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+    </div>
+    
+    <h1>&ensp;</h1>
+    
+    <!-- Biography Section -->
+    <div class="category-header">
+        <h2>Biography & Autobiography</h2>
+        <h2><a href="biography.html" style="color: black;">See More...</a></h2>
+    </div>
+    <div class="book-row">
+        <div class="book-item">
+            <img src="images/biography/bio1.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs499</span> Rs249</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/biography/bio2.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs399</span> Rs149</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/biography/bio3.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs699</span> Rs349</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/biography/bio4.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs799</span> Rs549</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+    </div>
+    
+    <h1>&ensp;</h1>
+    
+    <!-- Thriller Section -->
+    <div class="category-header">
+        <h2>Thriller & Suspense</h2>
+        <h2><a href="thriller.html" style="color: black;">See More...</a></h2>
+    </div>
+    <div class="book-row">
+        <div class="book-item">
+            <img src="images/thriller/th1.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs499</span> Rs249</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/thriller/th2.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs399</span> Rs149</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/thriller/th3.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs699</span> Rs349</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+        <div class="book-item">
+            <img src="images/thriller/th4.jpg" height="200" width="150">
+            <div class="price"><span class="original-price">Rs799</span> Rs549</div>
+            <a href="payment.html"><button>Buy</button></a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</body>
+</head>
+</html>
